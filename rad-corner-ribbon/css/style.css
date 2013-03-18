@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+#rad-corner-ribbon{
+	position:fixed;
+	top:0px;
+	left:0px;
+	/* RESET */
+	background-color:transparent!important;
+	border:none!important;
+	margin:0!important;
+	padding:0!important;
+	width:147px!important;
+	height:147px!important;
+	text-decoration:none!important;
+	cursor:pointer!important;
+	z-index:9999999!important;
+}
+.admin-bar #rad-corner-ribbon{
+	top:27px;
+}
